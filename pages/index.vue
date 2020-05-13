@@ -9,23 +9,39 @@
     <v-card color="#002038" style="margin-top: 20px">
       <v-card-text style="font-size:20px">
         <p>
-          <a href="https://twitter.com/MamoruItoi" class="member-name">
+          <a
+            href="https://twitter.com/MamoruItoi"
+            class="name"
+            style="color:darkorange;"
+          >
             いとっぴー
           </a>
           ・
-          <a href="https://twitter.com/sizumita" class="member-name">
+          <a
+            href="https://twitter.com/sizumita"
+            class="name"
+            style="color:darkorange;"
+          >
             すみどら
           </a>
           ・
-          <a href="https://twitter.com/madoreenu314" class="member-name">
+          <a
+            href="https://twitter.com/madoreenu314"
+            class="name"
+            style="color:darkorange;"
+          >
             まどれーぬ
           </a>
           ・
-          <a href="https://twitter.com/sh1ma" class="member-name">
+          <a
+            href="https://twitter.com/sh1ma"
+            class="name"
+            style="color:darkorange;"
+          >
             しま
           </a>
           ・
-          <a class="member-name">
+          <a class="member" style="color:darkorange;">
             たなか
           </a>
           の5人による、技術系雑談キャスです。
@@ -123,8 +139,7 @@ export default {
 </script>
 
 <style>
-.member-name {
+.name {
   text-decoration: none;
-  color: darkorange;
 }
 </style>
