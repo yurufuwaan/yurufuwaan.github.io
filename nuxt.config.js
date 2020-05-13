@@ -14,7 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: 'ゆるふわてとらん！は、毎週日曜午後4時からやっている、学生技術雑談ツイキャスです。' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/yurufuwaan.github.io/favicon.ico' }
     ]
   },
   /*
@@ -94,6 +94,9 @@ export default {
     linkify: true, // URLに似たテキストをリンクに自動変換する
     typography: true,  // 言語に依存しないきれいな 置換 + 引用符 を有効にします。
     use: []
+  },
+  router: {
+    base: '/yurufuwaan.github.io/'
   }
 }
 
