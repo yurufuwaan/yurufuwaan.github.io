@@ -1,6 +1,17 @@
 <template>
   <v-container v-if="entry">
-    <h1 v-html="entry.fields.title" />
+    <v-card color="#002538" flat>
+      <v-layout justify-center>
+        <v-img
+          :src="entry.fields.heroImage.fields.file.url"
+          :alt="entry.fields.heroImage.fields.title"
+          :aspect-ratio="16 / 9"
+          max-width="600"
+          max-height="338"
+        />
+      </v-layout>
+    </v-card>
+    <h1 v-html="entry.fields.title" style="padding-top: 15px" />
     {{ entry.fields.publishDate }}
     <div style="background: white; height: 1px" />
     <div v-html="$md.render(entry.fields.body)" style="padding-top: 50px" />
