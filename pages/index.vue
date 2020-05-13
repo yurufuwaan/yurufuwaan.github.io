@@ -100,6 +100,13 @@
     >
       Spotify
     </v-btn>
+    <v-btn
+      href="https://soundcloud.com/mamoruitoi"
+      style="text-transform: none; margin: 15px"
+      color="blue accent-3"
+    >
+      SoundCloud
+    </v-btn>
     <h1 style="padding-top: 100px">Discord</h1>
     <p>
       ゆるふわてとらん！では、ゲストの方とリスナーが交流を深められるように、Discordサーバーをご用意いたしました。
