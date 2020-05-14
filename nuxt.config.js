@@ -18,7 +18,7 @@ export default {
       { hid: 'og:image', property: 'og:image', content: 'https://github.com/yurufuwaan/yurufuwaan.github.io/blob/develop/static/logo.jpg?raw=true'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/yurufuwaan.github.io/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*
@@ -99,8 +99,8 @@ export default {
     typography: true,  // 言語に依存しないきれいな 置換 + 引用符 を有効にします。
     use: []
   },
-  router: {
-    base: '/yurufuwaan.github.io/'
-  }
+  // router: {
+  //   base: '/yurufuwaan.github.io/'
+  // }
 }
 
