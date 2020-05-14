@@ -95,8 +95,8 @@ export default {
     typography: true,  // 言語に依存しないきれいな 置換 + 引用符 を有効にします。
     use: []
   },
-  // router: {
-  //   base: '/yurufuwaan.github.io/'
-  // }
+  router: {
+    base: '/yurufuwaan.github.io/'
+  }
 }
 
