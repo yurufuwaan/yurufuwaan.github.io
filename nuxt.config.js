@@ -44,6 +44,9 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-166620379-1'
+    }]
   ],
   /*
   ** Nuxt.js modules
@@ -99,6 +102,10 @@ export default {
     typography: true,  // 言語に依存しないきれいな 置換 + 引用符 を有効にします。
     use: []
   },
+  debug: {
+    enabled: true,
+    sendHitTask: true
+  }
   // router: {
   //   base: '/yurufuwaan.github.io/'
   // }

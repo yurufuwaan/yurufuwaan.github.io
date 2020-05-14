@@ -18,5 +18,8 @@
         <nuxt />
       </v-container>
     </v-content>
+    <v-footer color="#002c45">
+      <p>このWebサイトではGoogle Analyticsを使用しています。</p>
+    </v-footer>
   </v-app>
 </template>
