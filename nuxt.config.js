@@ -10,8 +10,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'keywords', content: '学生 技術 エンジニア 雑談 ツイキャス ゆるふわてとらん！'},
-      { hid: 'description', name: 'description', content: 'ゆるふわてとらん！は、毎週日曜午後4時からやっている、学生技術雑談ツイキャスです。' }
+      // { name: 'keywords', content: '学生 技術 エンジニア 雑談 ツイキャス ゆるふわてとらん！'},
+      { hid: 'og:site_name', property: 'og:site_name', content: 'ゆるふわてとらん！' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://yurufuwaan.github.io' },
+      { hid: 'og:description', name: 'og:description', content: 'ゆるふわてとらん！は、毎週日曜午後4時からやっている、学生技術雑談ツイキャスです。' },
+      { hid: 'og:image', property: 'og:image', content: 'https://github.com/yurufuwaan/yurufuwaan.github.io/blob/develop/static/logo.jpg?raw=true'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/yurufuwaan.github.io/favicon.ico' }
