@@ -63,7 +63,13 @@
           lg="4"
           xl="3"
         >
-          <v-card hover :to="'/entries/' + post.sys.id" color="#002c45">
+          <v-card
+            hover
+            :to="'/entries/' + post.sys.id"
+            color="#002c45"
+            max-width="400"
+            max-height="1000"
+          >
             <v-img
               :src="post.fields.heroImage.fields.file.url"
               :alt="post.fields.heroImage.fields.title"
