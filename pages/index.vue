@@ -83,7 +83,7 @@
       <v-row v-else>
         <p>まだ投稿された記事はありません。</p>
       </v-row>
-      <v-btn to="/entries" color="blue accent-3">全ての記事を見る</v-btn>
+      <v-btn to="/entries" color="blue accent-3">全てのニュースを見る</v-btn>
     </v-container>
     <h1 style="padding-top: 100px">各種リンク</h1>
     <v-btn

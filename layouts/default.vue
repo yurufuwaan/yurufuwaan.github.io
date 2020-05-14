@@ -9,6 +9,9 @@
         </h1>
       </v-toolbar-title>
       <v-spacer />
+      <v-toolbar-items>
+        <v-btn color="cyan darken-2" to="/entries">ニュース一覧</v-btn>
+      </v-toolbar-items>
     </v-app-bar>
     <v-content>
       <v-container>
