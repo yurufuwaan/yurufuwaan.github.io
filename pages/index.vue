@@ -92,14 +92,29 @@
       <v-btn to="/entries" color="blue accent-3">全てのニュースを見る</v-btn>
     </v-container>
     <h1 style="padding-top: 100px">各種リンク</h1>
-    <v-btn
+    <v-col cols="2">
+      <v-row justify="space-around" class="mb-2" style="font-size: 40px">
+        <a href="https://twitter.com/yurufuwaan"
+          ><font-awesome-icon :icon="['fab', 'twitter']"
+        /></a>
+        <a href="https://open.spotify.com/show/34bzCauREwvNd6crtm2zaN"
+          ><font-awesome-icon :icon="['fab', 'spotify']"
+        /></a>
+        <a href="https://soundcloud.com/mamoruitoi"
+          ><font-awesome-icon :icon="['fab', 'soundcloud']"
+        /></a>
+        <!-- <font-awesome-icon :icon="['fab', 'soundcloud']" />
+        <font-awesome-icon :icon="['fab', 'spotify']" /> -->
+      </v-row>
+    </v-col>
+    <!-- <v-btn
       href="https://twitter.com/yurufuwaan"
       style="text-transform: none; margin: 15px"
       color="blue accent-3"
     >
       Twitter
-    </v-btn>
-    <v-btn
+    </v-btn> -->
+    <!-- <v-btn
       href="https://open.spotify.com/show/34bzCauREwvNd6crtm2zaN"
       style="text-transform: none; margin: 15px"
       color="blue accent-3"
@@ -112,7 +127,7 @@
       color="blue accent-3"
     >
       SoundCloud
-    </v-btn>
+    </v-btn> -->
     <h1 style="padding-top: 100px">Discord</h1>
     <p>
       ゆるふわてとらん！では、ゲストの方とリスナーが交流を深められるように、Discordサーバーをご用意いたしました。
@@ -140,7 +155,7 @@ export default {
         order: '-fields.publishDate'
       })
       .then((res) => (posts = res.items))
-      .catch(console.error)
+    // .catch(console.error)
     return { posts }
   },
   head() {
