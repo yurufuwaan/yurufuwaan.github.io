@@ -149,7 +149,7 @@ export default {
         order: '-fields.publishDate'
       })
       .then((res) => (posts = res.items))
-      .catch(console.error)
+    // .catch(console.error)
     return { posts }
   },
   head() {
